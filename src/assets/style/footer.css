@@ -1,0 +1,16 @@
+footer{
+    width: 100%;
+    float: right;
+    background-color: #141414;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-sizing: border-box;
+}
+footer h1{
+    margin: 10px auto;
+}
+footer p{
+    margin: auto;
+}
