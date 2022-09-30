@@ -1,16 +1,10 @@
-footer{
+footer {
     width: 100%;
+    font-size: x-large;
     float: right;
-    background-color: #141414;
-    color: white;
-    display: flex;
+    background-color: white;
+    color: black;
     flex-wrap: wrap;
     padding: 10px;
-    box-sizing: border-box;
-}
-footer h1{
-    margin: 10px auto;
-}
-footer p{
-    margin: auto;
+    text-align: center;
 }

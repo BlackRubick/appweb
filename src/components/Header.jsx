@@ -1,10 +1,9 @@
-import logo from '../assets/img/logo.jpg'
 import '../assets/style/header.css'
 function Header() {
     return (  
         
         <header>
-  <div className='img'><img class= "logo" src={logo} alt=""/></div>
+  <div className='img'><h1>Bienvenido</h1></div>
 </header>
             );
   

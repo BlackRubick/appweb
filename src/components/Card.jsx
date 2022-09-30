@@ -1,11 +1,10 @@
-import '../assets/style/top.css'
-
-function Card({ title ,img, desc}) {
+import '../assets/style/registro.css'
+function Card({tipo,clase,nombre,id,placeholder}) {
     return ( 
-        <>
-            <h1>{title}</h1>
-            <img src={img} alt="" />
-            <p className="title2">{desc}</p><br />
+        <>  
+        <input type={tipo} class={clase} name={nombre} id={id} 
+        placeholder={placeholder} />
+        <br />
         </>
      );
 }
